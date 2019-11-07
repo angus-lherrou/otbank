@@ -1,0 +1,18 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'otbank/style.css' %}">
+
+<div class="body">
+<h1 class="content" align="center">OT Constraint Databank</h1>
+
+{% if constraint_list %}
+    <ul class="content" align="left">
+    {% for constraint in constraint_list %}
+        <li align="left"><a href="{% url 'otbank:constraint' constraint.pk %}">{{ constraint.name }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No subfields are available.</p>
+{% endif %}
+
+</div>

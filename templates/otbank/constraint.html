@@ -1,0 +1,19 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'otbank/style.css' %}">
+
+<div class="body">
+<h1 class="content">{{ constraint.name }}</h1>
+
+{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+
+{% if constraint.definition_set.all|length > 0 %}
+    <ol type="1" class="content">
+    {% for def in constraint.definition_set.all %}
+        <li><p class="citation">{{ def.definition_text }}<span class="citationtext">{{ def.definition_citation }}</span></p></li>
+    {% endfor %}
+    </ol>
+{% else %}
+    <p>No definitions listed for {{ constraint.name }}.</p>
+{% endif %}
+</div>

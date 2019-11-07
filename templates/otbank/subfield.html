@@ -1,0 +1,15 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'otbank/style.css' %}">
+
+<h1>{{ subfield.subfield_name }}</h1>
+
+{% if these_constraints %}
+    <ul>
+    {% for constraint in these_constraints %}
+        <li><a href="{% url 'otbank:constraint' "Phonology" constraint.pk %}">{{ constraint.constraint_name }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No constraints are available.</p>
+{% endif %}

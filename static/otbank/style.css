@@ -1,0 +1,47 @@
+li a {
+    color: green;
+}
+
+.body {
+    horiz-align: center;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    /* background: white url("images/background.gif") no-repeat; */
+}
+
+.content {
+    horiz-align: center;
+    width: 75%;
+    padding: 10px;
+    margin: auto;
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif
+}
+
+/* Tooltip container */
+.citation {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.citation .citationtext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.citation:hover .citationtext {
+  visibility: visible;
+}
