@@ -5,7 +5,8 @@ OTbank is built with [Django](https://www.djangoproject.com/) 2.2.7.
 ## Motivation
 As Optimality Theory is a relatively young model and conceptions of constraints are nebulous and vary from author to author, there is motivation for a resource for:
 * finding constraints that have been proposed and [used in the literature](http://roa.rutgers.edu/), and
-* understanding how they are defined and used by different authors.  
+* understanding how they are defined and used by different authors.
+
 Also, from a theoretical standpoint, it is useful to have a unified list of constraints, since classical OT holds that the set of constraints is universal and instantiated completely in every language.
 ## Progress
 OTbank is in the early stages of development. As of now, it currently can display a list of constraints and a list of definitions for each constraint, with tooltips for citations.
