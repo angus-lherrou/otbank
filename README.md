@@ -19,6 +19,8 @@ Currently, features to be implemented are as follows:
 ## Contact
 For more information, contact me at lherrou@brandeis.edu.
 ## Acknowledgements
+I'd like to thank the following people:
+
 1. Prof. Plaster, for teaching me everything I know about phonology
 2. My classmates and students for inspiring me to create OTbank
 3. The denizens of Vertica, for psychological support and camaraderie
