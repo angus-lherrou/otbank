@@ -18,7 +18,6 @@ Currently, features to be implemented are as follows:
 * Expansion into other linguistics domains, such as OT Syntax
 ## Contact
 For more information, contact me at lherrou@brandeis.edu.
-----
 ## Acknowledgements
 1. Prof. Plaster, for teaching me everything I know about phonology
 2. My classmates and students for inspiring me to create OTbank
